@@ -1,0 +1,17 @@
+{
+  "name": "erc4337-smart-account-core",
+  "version": "1.0.0",
+  "description": "EIP-4337 implementation",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "npx hardhat run deploy_factory.js",
+    "op": "node send_userop.js"
+  },
+  "dependencies": {
+    "ethers": "^5.7.2",
+    "hardhat": "^2.13.0",
+    "dotenv": "^16.0.3",
+    "@account-abstraction/contracts": "^0.6.0"
+  },
+  "license": "MIT"
+}
